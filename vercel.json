@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "integrated-report.html",
+      "src": "통합보고서.html",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/integrated-report.html"
+      "dest": "/통합보고서.html"
     }
   ]
 } 
